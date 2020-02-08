@@ -3,7 +3,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: radial-gradient(circle, white, rgb(235, 235, 235));
+    background-image: radial-gradient(circle, white,rgb(196,196,196));
     z-index: -4;
 }
 
@@ -22,12 +22,11 @@
     text-align: center;
     padding: 40px;
     border-radius: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     border: solid 1px;
 }
 
 .loginbox input{
-
     padding: 7px;
     margin: 5px;
     background: none;
@@ -43,15 +42,17 @@
     outline: none;
 }
 
+.loginbox input:hover{
+    background-color: #b91d27;
+}
+
 .loginbox input:focus{
     background-color: #a61620;
 }
 
-
 .loginbox ::placeholder{
     color: #c7c7c7;
 }
-
 
 .loginbox button{
     margin-top: 25px;
@@ -60,6 +61,10 @@
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'Montserrat';
+}
+
+.forgot-password{
+    text-align: center;
 }
 
 .logo{
