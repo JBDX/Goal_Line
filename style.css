@@ -1,0 +1,106 @@
+.gradient{
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle, white, rgb(235, 235, 235));
+    z-index: -4;
+}
+
+#logo-container{
+    text-align:center;
+
+}
+
+
+.loginbox{
+    background-color: #cd202c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    border: solid 1px;
+}
+
+.loginbox input{
+
+    padding: 7px;
+    margin: 5px;
+    background: none;
+    border: #c7c7c7 1px solid;
+    border-radius: 2px;
+    color: lightgray;
+    font-family: 'Montserrat';
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+.loginbox input:focus{
+    background-color: #a61620;
+}
+
+
+.loginbox ::placeholder{
+    color: #c7c7c7;
+}
+
+
+.loginbox button{
+    margin-top: 25px;
+    margin-bottom: 2px;
+    border: solid 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Montserrat';
+}
+
+.logo{
+    width: 15rem;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+
+}
+
+
+.icons i{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+@media (min-width:600px){
+    .icons {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+
+@media (max-width:600px){
+    .logo{
+        width: 200px;
+    }
+    .loginbox{
+        top:42%;
+       
+    }
+    .icons{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+   
+}
