@@ -108,3 +108,21 @@
    
 }
 
+@media (max-width:320px){
+    .loginbox{
+        width: 80%;
+    }
+    .loginbox input{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .logo{
+        top: 180px;
+        width: 300px;
+    }
+    .loginbox{
+        width: 70%;
+    }
+}
