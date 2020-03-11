@@ -32,7 +32,7 @@
     background: none;
     border: #c7c7c7 1px solid;
     border-radius: 2px;
-    color: lightgray;
+    color: white;
     font-family: 'Montserrat';
     border-top: none;
     border-right: none;
@@ -117,7 +117,8 @@
     }
 }
 
-@media (max-width:768px){
+@media (max
+-width:768px){
     .logo{
         top: 180px;
         width: 300px;
