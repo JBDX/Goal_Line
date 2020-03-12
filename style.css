@@ -15,16 +15,22 @@
 
 .loginbox{
     background-color: #cd202c;
-    position: relative;
-    top: 50%;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
-    padding: 40px;
     border-radius: 5px;
     padding-bottom: 20px;
     border: solid 1px;
+    padding: 20px;
 }
+
+
+.forms{
+
+    width: auto;
+}
+
 
 .loginbox input{
     padding: 7px;
@@ -70,9 +76,8 @@
     width: 15rem;
     position: absolute;
     left: 50%;
-    top: 40px;
     transform: translate(-50%);
-
+    top: 40px;
 }
 
 
@@ -88,15 +93,24 @@
         bottom: 10px;
         right: 10px;
     }
+    .loginbox{
+ 
+        top: 390px;
+    }
+    .login{
+        position: absolute;
+
+    }
 }
 
 
-@media (max-width:600px){
+@media (max-width:640px){
     .logo{
         width: 250px;
+        top: 50px;
     }
     .loginbox{
-        top: 45%;
+        top:500px;
     }
     .icons{
         position: absolute;
@@ -108,17 +122,16 @@
    
 }
 
-@media (max-width:320px){
+@media (max-width:376px){
     .loginbox{
-        width: 80%;
+        width: 50%;
     }
     .loginbox input{
         width: 100%;
     }
 }
 
-@media (max
--width:768px){
+@media (max-width:768px){
     .logo{
         top: 180px;
         width: 300px;
