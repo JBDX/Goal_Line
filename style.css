@@ -88,11 +88,18 @@
     position: absolute;
     width: 100%;
     cursor: pointer;
-    text-align: right;
     bottom: 5px;
     right: 5px;
+    text-align: right;
 }
 
 .icons i{
-    margin-right: 25px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
 } 
+
+@media (max-width:765px){
+    .icons{
+        text-align: center;
+    }
+}
