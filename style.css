@@ -8,6 +8,8 @@
     overflow-x: auto;
 }
 
+/* LOGO MCGILL */
+
 #logo-container{
     text-align:center;
 }
@@ -19,6 +21,8 @@
     top: 6%;
     transform: translate(-50%);
 }
+
+/* LOGINBOX */
 
 .loginbox{
     background-color: #cd202c;
@@ -33,6 +37,8 @@
     padding: 20px;
     box-shadow: 0px 0px 50px #c7c7c7 ;
 }
+
+/* Input */
 
 .loginbox input{
     margin: 7.5px 0px;
@@ -61,6 +67,8 @@
     color: #c7c7c7;
 }
 
+/* Button */
+
 .login-button{
     margin-top: 25px;
     margin-bottom: 2px;
@@ -73,30 +81,39 @@
     font-family: 'Montserrat';
     border-radius: 3px;
     transition: 0.5s;
+    background: white;
 }
 
 .login-button:hover{
     background: #c7c7c7;
 }
 
+/* Password */
+
 .forgot-password{
     text-align: center;
     margin-top: 15px;
 }
 
+/* ICONS */
+
 .icons{
-    position: absolute;
     width: 100%;
-    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
     bottom: 5px;
+    cursor: pointer;
     right: 5px;
     text-align: right;
+    z-index: -1;
 }
 
 .icons i{
     margin-right: 12.5px;
     margin-left: 12.5px;
 } 
+
+/* MEDIA QUERIES */
 
 @media (max-width:765px){
     .icons{
