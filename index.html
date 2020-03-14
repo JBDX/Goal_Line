@@ -39,28 +39,26 @@
     </div>
 
     <section id="logo-container">
-        <img class="logo" src="Images/McGill-logo.png" alt="McGill-logo">
+        <div class="logo"><img class="logo" src="Images/McGill-logo.png" alt="McGill-logo"></div>
     </section>
 
-    <div class="loginbox">
-        <form action="home.html" class="login">
-            <div class="form-group forms">
-                <input type="text" placeholder="Email">
+    <section id="login-div">
+        <div class="loginbox">
+            <div class="login-form">
+                <div class="fields">
+                    <div class="email"><input type="text" class="email-input" placeholder="Email" /></div>
+                    <div class="password"><input type="text" class="password-input" placeholder="Password" /></div>
+                </div>
             </div>
-            <div class="form-group forms">
-                <input type="password" placeholder="Password">
-                
+            <button>Login</button>
+            <div class="forgot-password">
+                <a href="">Forgot password</a>
             </div>
-            <div class="form-group">
-                <button class="btn btn-light" onclick="window.location.href = 'home.html';">Login</button>
-            </div>
-            
-        </form>
-        <div class="forgot-password">
-            <a href="">Forgot password</a>
         </div>
-        
-        
+    </section>
+
+
+
     </div>
     <div class="icons">
         <i class="icon fab fa-facebook-f fa-lg"></i>
